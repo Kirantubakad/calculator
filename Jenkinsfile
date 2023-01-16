@@ -3,7 +3,7 @@ pipeline{
    stages{
       statge(checkout){
 	     steps{
-		    
+		   git branch: 'main', credentialsId: 'github_credential', url: 'https://github.com/Kirantubakad/calculator.git'  
 		 
 		 }
 	  
